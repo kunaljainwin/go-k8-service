@@ -1,0 +1,68 @@
+# =====================
+# Go build artifacts
+# =====================
+# Compiled binary output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+# Swagger
+docs/
+# Go build cache
+bin/
+pkg/
+_build/
+_builds/
+
+# Vendor directory (if using Go modules, usually ignored)
+vendor/
+
+# =====================
+# Go tooling
+# =====================
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# Dependency directories
+Gopkg.lock
+Gopkg.toml
+
+# =====================
+# Kubernetes / YAML
+# =====================
+# Local Kubernetes config files
+.kube/
+.kustomize/
+*.local.yaml
+*.env
+*.tmp
+
+# Minikube / kind files
+.minikube/
+kind/
+
+# =====================
+# Docker
+# =====================
+# Docker image build cache
+docker-compose.override.yml
+*.tar
+*.log
+*.env
+
+# =====================
+# OS specific
+# =====================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
