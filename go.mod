@@ -1,6 +1,6 @@
 module github.com/kunaljainwin/go-service
 
-go 1.24.0
+go 1.24
 
 require (
 	github.com/swaggo/http-swagger v1.3.4
